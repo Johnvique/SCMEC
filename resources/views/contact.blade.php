@@ -16,46 +16,49 @@
   <div class="container">
     <a href="index.html">Home</a>
     <span class="mx-3 icon-keyboard_arrow_right"></span>
-    <span class="current">Contact</span>
+    <span class="current" style="color: #D2691E">Contact</span>
   </div>
 </div>
 
 <div class="site-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 form-group">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" class="form-control form-control-lg">
-            </div>
-            <div class="col-md-6 form-group">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" class="form-control form-control-lg">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 form-group">
-                <label for="eaddress">Email Address</label>
-                <input type="text" id="eaddress" class="form-control form-control-lg">
-            </div>
-            <div class="col-md-6 form-group">
-                <label for="tel">Tel. Number</label>
-                <input type="text" id="tel" class="form-control form-control-lg">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 form-group">
-                <label for="message">Message</label>
-                <textarea name="" id="message" cols="20" rows="5" class="form-control"></textarea>
-            </div>
-        </div>
+  <div class="container">
 
-        <div class="row">
-            <div class="col-12">
-                <input type="submit" value="Send Message" class="btn btn-warning btn-lg px-5">
-            </div>
-        </div>
-    </div>
+          <div class="col-md-5">
+                <div class="card">
+                  <div class="card-header bg-secondary text-warning"><h4>Contact Form</h4></div>
+                    <div class="card-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="username">Username</label>
+                          <input type="text" id="username" class="form-control form-control-lg">
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" id="email" class="form-control form-control-lg">
+                      </div>
+                      <div class="form-group">
+                          <label for="phone">Phone Number</label>
+                          <input type="phone" id="phone" class="form-control form-control-lg">
+                      </div>
+                      <div class="form-group">
+                          <label for="location">Location</label>
+                          <input type="location" id="location" class="form-control form-control-lg">
+                      </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="" id="message" cols="8" rows="3" class="form-control"></textarea>
+                        </div>
+                          <input type="submit" value="Send Message" class="btn btn-warning btn-lg px-5">
+                      </form>
+                    </div>
+                </div>
+          </div>
+      
+
+    
+  </div>
 </div>
+
 
 <div class="map-section text-center">
   <div class="container">
@@ -65,8 +68,7 @@
           <div class="card-body">
             <div class="card-header bg-secondary text-warning"><h4>School Location</h4></div>
               <p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63834.27013501617!2d34.41374927042015!3d-0.5388369703489417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d4d4f7c523ddff%3A0xc3d6a7b3371a3e11!2sHoma%20Bay!5e0!3m2!1sen!2ske!4v1574498444820!5m2!1sen!2ske" 
-                width="500" height="250" frameborder="0" style="border:0;"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.414287156982!2d36.6804484!3d-1.4138889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdac3db9fcf7333f5!2sSt.%20Charles%20Mutego%20Education%20Center%20Secondary%20School!5e0!3m2!1sen!2ske!4v1577804706824!5m2!1sen!2ske" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
               </p>
           </div>
         </div>
@@ -78,11 +80,11 @@
           <p><span>Address :</span> St.Charles Mutego Educational Centre, <br> P.O Box 34161-00100, <br> Nairobi-Kenya.
           </p>
           <p>Call :<a href="{{url('tel:+254722373747')}}" class="small mr-3">
-            <span class="icon-phone2 mr-2"></span> +254722373747</a>
+            <span style="color:#D2691E" class="icon-phone2 mr-2"></span> <span style="color:#D2691E">+254722373747</span></a>
             <a href="{{url('tel:+254722373747')}}" class="small mr-3">
-              <span class="icon-phone2 mr-2"></span> +254722373747</a></p>
-          <p>Email :<a href="{{url('mailto:charlesmutego@yahoo.com')}}" class="small mr-3"><span class="icon-envelope-o mr-2">
-            </span> charlesmutego@yahoo.com</a></p>
+              <span style="color:#D2691E" class="icon-phone2 mr-2"></span> <span style="color:#D2691E">+254722373747</span></a></p>
+          <p>Email :<a href="{{url('mailto:charlesmutego@yahoo.com')}}" class="small mr-3"><span style="color:#D2691E" class="icon-envelope-o mr-2">
+            </span> <span style="color:#D2691E">charlesmutego@yahoo.com</span></a></p>
         </div>
       </div>
     </div> 

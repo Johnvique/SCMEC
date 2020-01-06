@@ -44,14 +44,11 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-
     <div class="py-2 bg-secondary">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-9 d-none d-lg-block">
-          <a href="{{url('/contact')}}" class="small mr-3"><span class="icon-question-circle-o mr-2"></span> Have a questions?</a> 
-          <a href="{{url('tel:+254722373747')}}" class="small mr-3"><span class="icon-phone2 mr-2"></span> +254722373747</a> 
-          <a href="{{url('mailto:charlesmutego@yahoo.com')}}" class="small mr-3"><span class="icon-envelope-o mr-2"></span> charlesmutego@yahoo.com</a> 
+            <span style="color:#FFFFFF"><em>Motto: Lorem ipsum says it should be here.</em></span>
           </div>
           <div class="col-lg-3 text-right">
           <a href="{{url('/login')}}" class="small mr-3 btn-sm btn-warning"><span class="icon-unlock-alt"></span> Log In</a>
@@ -89,8 +86,18 @@
                     <li><a href="{{url('/boys')}}">Boys School-Nairobi</a></li>
                   </ul>
                 </li>
-                <li>
-                  <a href="{{url('/admission')}}" class="nav-link text-left">Admissions</a>
+                <li class="has-children">
+                  <a href="{{url('/#')}}" class="nav-link text-left">Admission</a>
+                  <ul class="dropdown">
+                    <li><a href="{{url('/admission')}}">Entry Requirements & Procedures</a></li>
+                    <li><a href="{{url('/fee_structure')}}">Fee Payment</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="{{url('/#')}}" class="nav-link text-left">Events</a>
+                  <ul class="dropdown">
+                    <li><a href="{{url('/school_gallery')}}">Photo Gallery</a></li>
+                  </ul>
                 </li>
                 <li>
                     <a href="{{url('/contact')}}" class="nav-link text-left">Contact</a>
@@ -100,13 +107,13 @@
 
           </div>
           <div class="ml-auto">
-            <div class="social-wrap">
+            <div class="wrap">
               <a href="{{url('/#')}}"><span class="icon-facebook" style="color: #D2691E"></span></a>
               <a href="{{url('/#')}}"><span class="icon-twitter" style="color: #D2691E"></span></a>
               <a href="{{url('/#')}}"><span class="icon-instagram" style="color: #D2691E"></span></a>
 
               <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                class="icon-menu h3"></span></a>
+                class="icon-menu "></span></a>
             </div>
           </div>
          
@@ -129,23 +136,20 @@
             
           </div>
           <div class="col-lg-3">
-            <h3 class="footer-heading"><span>Our Curriculum</span></h3>
+            <h3 class="footer-heading"><span>Our Schools</span></h3>
             <ul class="list-unstyled">
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
+                <li><a href="{{url('/primary')}}"><span style="color:#D2691E">Primary Mixed</span></a></li>
+                <li><a href="{{url('/secondary')}}"><span style="color:#D2691E">Secondary Girls</span></a></li>
+                <li><a href="{{url('/boys')}}"><span style="color:#D2691E">Secondary Boys</span></a></li>
             </ul>
           </div>
           <div class="col-lg-3">
-              <h3 class="footer-heading"><span>Our Courses</span></h3>
+              <h3 class="footer-heading"><span>Facilities</span></h3>
               <ul class="list-unstyled">
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
-                <li><a href="#"><span style="color:#D2691E">Acedemic</span></a></li>
+                <li><a href="{{url('/')}}"><span style="color:#D2691E">Free Transport</span></a></li>
+                <li><a href="{{url('/')}}"><span style="color:#D2691E">Subsidized Fee</span></a></li>
+                <li><a href="{{url('/')}}"><span style="color:#D2691E">Modern Campus</span></a></li>
+              <li><a href="{{url('/contact')}}"><span style="color:#D2691E">Our Location</span></a></li>
               </ul>
           </div>
           <div class="col-lg-3">
@@ -161,8 +165,9 @@
         <div class="row">
           <div class="col-12">
             <div class="copyright">
-                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-                    | St. Charles Mutego Educational Centre. | Alright Reserved.</p>
+              <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>| 
+                <a href="{{url('http://johnvique.info')}}">
+                <span style="color:#D2691E">St. Charles Mutego Educational Center</span></a> | All rights reserved.</p>
             </div>
           </div>
         </div>

@@ -33,6 +33,14 @@ Route::get('/admission', function () {
     return view('admission');
 });
 
+Route::get('/school_gallery', function () {
+    return view('school_gallery');
+});
+
+Route::get('/fee_structure', function () {
+    return view('fee_structure');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });

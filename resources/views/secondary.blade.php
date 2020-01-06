@@ -5,7 +5,7 @@
     <div class="row align-items-end">
       <div class="col-lg-7">
         <h2 class="mb-0">Girls' School</h2>
-        <p>Located in Mombasa.</p>
+        <p>Located In Mombasa.</p>
       </div>
     </div>
   </div>
@@ -16,171 +16,82 @@
 <div class="container">
 <a href="{{url('/')}}">Home</a>
   <span class="mx-3 icon-keyboard_arrow_right"></span>
-  <span class="current">Secondary Girls School</span>
+  <span class="current" style="color: #D2691E">Secondary School</span>
 </div>
 </div>
 
-<div class="site-section">
-  <div class="container">
+<div class="news-updates">
+    <div class="container">
+       
       <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-              <div class="course-1-item">
-                  <figure class="thumnail">
-                  <a href="course-single.html"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="price">$99.00</div>
-                  <div class="category"><h3>Mobile Application</h3></div>  
-                  </figure>
-                  <div class="course-1-content pb-4">
-                  <h2>How To Create Mobile Apps Using Ionic</h2>
-                  <div class="rating text-center mb-3">
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                  </div>
-                  <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                  <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                  </div>
-              </div>
+        <div class="col-lg-9">
+           <div class="section-heading">
+            <h3 class="text-black">Secondary Girls School</h3>
           </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-              <div class="course-1-item">
-                  <figure class="thumnail">
-                          <a href="course-single.html"><img src="images/course_2.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="price">$99.00</div>
-                  <div class="category"><h3>Mobile Application</h3></div>  
-                  </figure>
-                  <div class="course-1-content pb-4">
-                  <h2>How To Create Mobile Apps Using Ionic</h2>
-                  <div class="rating text-center mb-3">
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="post-entry-big">
+                <a href="news-single.html" class="img-link"><img src="images/about1.jpg" alt="Image" class="img-fluid"></a>
+                <div class="post-content">
+                  <div class="post-meta"> 
+                    <a href="#">June 6, 2019</a>
+                    <span class="mx-1">/</span>
+                    <a href="#">Admission</a>, <a href="#">Updates</a>
                   </div>
-                  <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                  <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                  </div>
+                  <h3 class="post-heading"><a href="news-single.html">Our Learning Session</a></h3>
+                </div>
               </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-              <div class="course-1-item">
-                  <figure class="thumnail">
-                          <a href="course-single.html"><img src="images/course_3.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="price">$99.00</div>
-                  <div class="category"><h3>Mobile Application</h3></div>  
-                  </figure>
-                  <div class="course-1-content pb-4">
-                  <h2>How To Create Mobile Apps Using Ionic</h2>
-                  <div class="rating text-center mb-3">
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
+            </div>
+            <div class="col-lg-6">
+              <div class="post-entry-big horizontal d-flex mb-4">
+                <a href="news-single.html" class="img-link mr-4"><img src="images/about2.jpg" alt="Image" class="img-fluid"></a>
+                <div class="post-content">
+                  <div class="post-meta">
+                    <a href="#">June 6, 2019</a>
+                    <span class="mx-1">/</span>
+                    <a href="#">Admission</a>, <a href="#">Updates</a>
                   </div>
-                  <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                  <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                  </div>
+                  <h3 class="post-heading"><a href="news-single.html">Group Disussion</a></h3>
+                </div>
               </div>
-          </div>
 
-
-          <div class="col-lg-4 col-md-6 mb-4">
-              <div class="course-1-item">
-                  <figure class="thumnail">
-                          <a href="course-single.html"><img src="images/course_4.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="price">$99.00</div>
-                  <div class="category"><h3>Mobile Application</h3></div>  
-                  </figure>
-                  <div class="course-1-content pb-4">
-                  <h2>How To Create Mobile Apps Using Ionic</h2>
-                  <div class="rating text-center mb-3">
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
+              <div class="post-entry-big horizontal d-flex mb-4">
+                <a href="news-single.html" class="img-link mr-4"><img src="images/about1.jpg" alt="Image" class="img-fluid"></a>
+                <div class="post-content">
+                  <div class="post-meta">
+                    <a href="#">June 6, 2019</a>
+                    <span class="mx-1">/</span>
+                    <a href="#">Admission</a>, <a href="#">Updates</a>
                   </div>
-                  <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                  <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                  </div>
+                  <h3 class="post-heading"><a href="news-single.html">Class Meeting</a></h3>
+                </div>
               </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 mb-4">
-              <div class="course-1-item">
-                  <figure class="thumnail">
-                          <a href="course-single.html"><img src="images/course_5.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="price">$99.00</div>
-                  <div class="category"><h3>Mobile Application</h3></div>  
-                  </figure>
-                  <div class="course-1-content pb-4">
-                  <h2>How To Create Mobile Apps Using Ionic</h2>
-                  <div class="rating text-center mb-3">
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
+              <div class="post-entry-big horizontal d-flex mb-4">
+                <a href="news-single.html" class="img-link mr-4"><img src="images/about2.jpg" alt="Image" class="img-fluid"></a>
+                <div class="post-content">
+                  <div class="post-meta">
+                    <a href="#">June 6, 2019</a>
+                    <span class="mx-1">/</span>
+                    <a href="#">Admission</a>, <a href="#">Updates</a>
                   </div>
-                  <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                  <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                  </div>
+                  <h3 class="post-heading"><a href="news-single.html">Student Learning</a></h3>
+                </div>
               </div>
+            </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-              <div class="course-1-item">
-                  <figure class="thumnail">
-                          <a href="course-single.html"><img src="images/course_6.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="price">$99.00</div>
-                  <div class="category"><h3>Mobile Application</h3></div>  
-                  </figure>
-                  <div class="course-1-content pb-4">
-                  <h2>How To Create Mobile Apps Using Ionic</h2>
-                  <div class="rating text-center mb-3">
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                      <span class="icon-star2 text-warning"></span>
-                  </div>
-                  <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
-                  <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
-                  </div>
-              </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="section-heading">
           </div>
-
-      </div>
-  </div>
-</div>
-
-<div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-        <span class="icon flaticon-mortarboard"></span>
-        <h3>Our Philosphy</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-        <span class="icon flaticon-school-material"></span>
-        <h3>Academics Principle</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-          Dolore, amet reprehenderit.</p>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-        <span class="icon flaticon-library"></span>
-        <h3>Key of Success</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-          Dolore, amet reprehenderit.</p>
+          <a href="#" class="image mb-4" data-fancybox="" data-ratio="2">
+            <img src="images/about1.jpg" alt="Image" class="img-fluid">
+          </a>
+          <a href="#" class="image mb-4" data-fancybox="" data-ratio="2">
+              <img src="images/about2.jpg" alt="Image" class="img-fluid">
+            </a>
+        </div>
       </div>
     </div>
   </div>
-</div>  
 @endsection
