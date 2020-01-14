@@ -18,6 +18,9 @@ Route::get('/', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+Route::get('/admin/index', function () {
+    return view('admin/index');
+});
 
 Route::get('/primary', function () {
     return view('primary');

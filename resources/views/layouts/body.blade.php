@@ -62,8 +62,8 @@
         <div class="d-flex align-items-center">
           <div class="site-logo">
           <a href="{{url('/')}}" class="d-block">
-                <h4 style="color: #D2691E">St.Charles Mutego</h5>
-              {{-- <img src="images/logo.jpg" alt="Image" class="img-fluid"> --}}
+                  <p class="mb-4"><img width="160em" height="80em" src="{{asset('images/logo.jpeg')}}" 
+                    alt="Image" class="img-thumbnail"></p>
             </a>
           </div>
           <div class="mr-auto">
@@ -130,9 +130,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <h5 style="color: #D2691E">St.Charles Mutego Educational Centre</h5>
-            {{-- <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p> --}}
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
+          <p class="mb-4"><img width="150em" height="150em" src="{{asset('images/logo.jpeg')}}" alt="Image" class="img-thumbnail"></p> 
             
           </div>
           <div class="col-lg-3">
