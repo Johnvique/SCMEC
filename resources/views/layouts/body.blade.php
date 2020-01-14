@@ -61,9 +61,10 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-          <a href="{{url('/')}}" class="d-block">
-                  <p class="mb-4"><img width="160em" height="80em" src="{{asset('images/logo.jpeg')}}" 
-                    alt="Image" class="img-thumbnail"></p>
+          <a href="{{url('/')}}" class="d-block text-warning">
+            SCMEC
+                  {{-- <p class="mb-4"><img width="160em" height="80em" src="{{asset('images/logo.jpeg')}}" 
+                    alt="Image" class="img-thumbnail"></p> --}}
             </a>
           </div>
           <div class="mr-auto">
